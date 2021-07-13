@@ -50,7 +50,7 @@ Go to `https://www.json-generator.com/`
 ```
 mongoexport --db state --collection cities --out ~/Desktop/states/city.json --jsonArray
 ```
-
+mongoexport --db state --collection cities --out generated.json --jsonArray
 ## BLOCK-writeCode
 
 Export `users` collection from `test` database onto `Desktop` in a file named `exported.json`.
